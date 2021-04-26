@@ -152,8 +152,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DR1-fW-dz6">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="m1S-QS-pcg"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="m1S-QS-pcg">
+                            <connections>
+                                <action selector="saveMedicationButtonTapped:" destination="4ts-3m-S6l" id="14N-9p-wvo"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="datePicker" destination="sj9-hK-Uig" id="NYz-Iu-NCK"/>
+                        <outlet property="nameTextField" destination="KUR-A9-9jG" id="686-hf-42o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQx-tT-3tf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

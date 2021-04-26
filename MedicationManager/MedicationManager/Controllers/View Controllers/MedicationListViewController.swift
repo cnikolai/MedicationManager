@@ -24,6 +24,7 @@ class MedicationListViewController: UIViewController {
     
     // MARK:- Actions
     
+    
     // MARK:- Functions
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -33,7 +34,13 @@ class MedicationListViewController: UIViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       
+       //IIDOO
+        if segue.identifier == "toEditMedication" {
+            guard let destinationVC = segue.destination as? MedicationDetailViewController,
+                  let indexPath = tableView.indexPathForSelectedRow else { return }
+            let medication = MedicationController.sharedInstance.medications[indexPath.row]
+            destinationVC.medication = medication
+        }
     }
 }
 
