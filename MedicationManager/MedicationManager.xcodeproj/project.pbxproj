@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		33A61CAF258F2E6E00B62B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A61CAE258F2E6E00B62B2F /* AppDelegate.swift */; };
 		33A61CB1258F2E6E00B62B2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A61CB0258F2E6E00B62B2F /* SceneDelegate.swift */; };
-		33A61CB3258F2E6E00B62B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A61CB2258F2E6E00B62B2F /* ViewController.swift */; };
 		33A61CB6258F2E6E00B62B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A61CB4258F2E6E00B62B2F /* Main.storyboard */; };
 		33A61CB9258F2E6E00B62B2F /* MedicationManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33A61CB7258F2E6E00B62B2F /* MedicationManager.xcdatamodeld */; };
 		33A61CBB258F2E7000B62B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A61CBA258F2E7000B62B2F /* Assets.xcassets */; };
 		33A61CBE258F2E7000B62B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A61CBC258F2E7000B62B2F /* LaunchScreen.storyboard */; };
+		37582F822637227C005EDC51 /* MedicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F812637227C005EDC51 /* MedicationListViewController.swift */; };
+		37582F8526372293005EDC51 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F8426372293005EDC51 /* MedicationDetailViewController.swift */; };
+		37582F88263722DD005EDC51 /* MedicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F87263722DD005EDC51 /* MedicationTableViewCell.swift */; };
+		37582F8B263727AB005EDC51 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F8A263727AB005EDC51 /* CoreDataStack.swift */; };
+		37582F8E26372DDD005EDC51 /* Medication+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F8D26372DDD005EDC51 /* Medication+Convenience.swift */; };
+		37582F922637331B005EDC51 /* DateFormatter+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F912637331B005EDC51 /* DateFormatter+Extras.swift */; };
+		37582F99263736BA005EDC51 /* MedicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37582F98263736BA005EDC51 /* MedicationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33A61CAB258F2E6E00B62B2F /* MedicationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A61CAE258F2E6E00B62B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33A61CB0258F2E6E00B62B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33A61CB2258F2E6E00B62B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33A61CB5258F2E6E00B62B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33A61CB8258F2E6E00B62B2F /* MedicationManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicationManager.xcdatamodel; sourceTree = "<group>"; };
 		33A61CBA258F2E7000B62B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33A61CBD258F2E7000B62B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33A61CBF258F2E7000B62B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37582F812637227C005EDC51 /* MedicationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListViewController.swift; sourceTree = "<group>"; };
+		37582F8426372293005EDC51 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		37582F87263722DD005EDC51 /* MedicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTableViewCell.swift; sourceTree = "<group>"; };
+		37582F8A263727AB005EDC51 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		37582F8D26372DDD005EDC51 /* Medication+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication+Convenience.swift"; sourceTree = "<group>"; };
+		37582F912637331B005EDC51 /* DateFormatter+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extras.swift"; sourceTree = "<group>"; };
+		37582F98263736BA005EDC51 /* MedicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,94 @@
 		33A61CAD258F2E6E00B62B2F /* MedicationManager */ = {
 			isa = PBXGroup;
 			children = (
-				33A61CAE258F2E6E00B62B2F /* AppDelegate.swift */,
-				33A61CB0258F2E6E00B62B2F /* SceneDelegate.swift */,
-				33A61CB2258F2E6E00B62B2F /* ViewController.swift */,
-				33A61CB4258F2E6E00B62B2F /* Main.storyboard */,
-				33A61CBA258F2E7000B62B2F /* Assets.xcassets */,
-				33A61CBC258F2E7000B62B2F /* LaunchScreen.storyboard */,
-				33A61CBF258F2E7000B62B2F /* Info.plist */,
-				33A61CB7258F2E6E00B62B2F /* MedicationManager.xcdatamodeld */,
+				37582F7F26371A3F005EDC51 /* CoreData */,
+				37582F78263718F7005EDC51 /* Controllers */,
+				37582F76263718EE005EDC51 /* Views */,
+				37582F90263732FA005EDC51 /* Helper and Extension */,
+				37582F75263718CD005EDC51 /* Resources */,
 			);
 			path = MedicationManager;
+			sourceTree = "<group>";
+		};
+		37582F75263718CD005EDC51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33A61CAE258F2E6E00B62B2F /* AppDelegate.swift */,
+				33A61CB0258F2E6E00B62B2F /* SceneDelegate.swift */,
+				33A61CBA258F2E7000B62B2F /* Assets.xcassets */,
+				33A61CBF258F2E7000B62B2F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37582F76263718EE005EDC51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37582F7B26371910005EDC51 /* Storyboards */,
+				37582F7C26371915005EDC51 /* Custom Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37582F78263718F7005EDC51 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37582F7A26371903005EDC51 /* Model Controllers */,
+				37582F79263718FC005EDC51 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37582F79263718FC005EDC51 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37582F812637227C005EDC51 /* MedicationListViewController.swift */,
+				37582F8426372293005EDC51 /* MedicationDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		37582F7A26371903005EDC51 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37582F98263736BA005EDC51 /* MedicationController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		37582F7B26371910005EDC51 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				33A61CB4258F2E6E00B62B2F /* Main.storyboard */,
+				33A61CBC258F2E7000B62B2F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37582F7C26371915005EDC51 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				37582F87263722DD005EDC51 /* MedicationTableViewCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		37582F7F26371A3F005EDC51 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				33A61CB7258F2E6E00B62B2F /* MedicationManager.xcdatamodeld */,
+				37582F8A263727AB005EDC51 /* CoreDataStack.swift */,
+				37582F8D26372DDD005EDC51 /* Medication+Convenience.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		37582F90263732FA005EDC51 /* Helper and Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37582F912637331B005EDC51 /* DateFormatter+Extras.swift */,
+			);
+			path = "Helper and Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A61CB3258F2E6E00B62B2F /* ViewController.swift in Sources */,
+				37582F8B263727AB005EDC51 /* CoreDataStack.swift in Sources */,
+				37582F8526372293005EDC51 /* MedicationDetailViewController.swift in Sources */,
 				33A61CAF258F2E6E00B62B2F /* AppDelegate.swift in Sources */,
+				37582F822637227C005EDC51 /* MedicationListViewController.swift in Sources */,
+				37582F922637331B005EDC51 /* DateFormatter+Extras.swift in Sources */,
+				37582F8E26372DDD005EDC51 /* Medication+Convenience.swift in Sources */,
 				33A61CB9258F2E6E00B62B2F /* MedicationManager.xcdatamodeld in Sources */,
+				37582F88263722DD005EDC51 /* MedicationTableViewCell.swift in Sources */,
+				37582F99263736BA005EDC51 /* MedicationController.swift in Sources */,
 				33A61CB1258F2E6E00B62B2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P37KHYUXQV;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P37KHYUXQV;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
