@@ -22,9 +22,6 @@ class MedicationListViewController: UIViewController {
         MedicationController.sharedInstance.fetchMedications()
     }
     
-    // MARK:- Actions
-    
-    
     // MARK:- Functions
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
